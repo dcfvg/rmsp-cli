@@ -8,7 +8,7 @@ function cpRsaKey {
 
 function killplayer {
    ssh pi@$1 '
-      bash /home/pi/Documents/node-omxplayer-sync/stop.sh
+      bash /home/pi/Documents/node-omxplayer-sync/stop.sh;exit;
    '
 }
 
